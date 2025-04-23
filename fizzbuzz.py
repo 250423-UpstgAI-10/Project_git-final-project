@@ -1,4 +1,3 @@
-
 for i in range(1, 19+1):
     if i % 15 == 0:
         print('FizzBuzz')
@@ -7,8 +6,5 @@ for i in range(1, 19+1):
 
     elif i % 3 == 0:
         print("Fizz")
-
--
--
--
-
+    else:
+        print(f'{i}')
