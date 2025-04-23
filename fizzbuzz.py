@@ -4,7 +4,8 @@ for i in range(1, 19+1):
         print('FizzBuzz')
 -
 -
--
+-   elif i % 5 == 0:
+        print('buzz')
 -
 -
 -
